@@ -70,8 +70,6 @@ def calculate_statistics(comparison_df):
 
 def main():
     parser = argparse.ArgumentParser(description='Genotype QC Analysis')
-    parser = argparse.ArgumentParser(description='Genotype QC Analysis')
-    parser = argparse.ArgumentParser(description='Genotype QC Analysis')
     parser.add_argument('reference_dir', help='Directory with HapMap files')
     parser.add_argument('lab_file', help='Lab genotype file')
     args = parser.parse_args()
